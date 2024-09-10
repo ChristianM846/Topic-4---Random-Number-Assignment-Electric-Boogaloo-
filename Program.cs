@@ -29,7 +29,7 @@
             Console.WriteLine($"Okay, the maximum value is {max}, now let's generate some numbers!");
             Console.WriteLine($"Press ENTER to generate five numbers between {min} and {max} (Inclusive)");
             Console.ReadLine();
-            Console.WriteLine($"Okay, your five randomly generated numbers are:");
+            Console.Write($"Okay, your five randomly generated numbers are:");
 
             for (int i = 1; i <= 5; i++)
             {
